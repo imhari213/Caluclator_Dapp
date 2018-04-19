@@ -1,0 +1,29 @@
+{
+  "name": "truffle",
+  "version": "1.0.0",
+  "description": "A private Bc project",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "None"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "chai": "^4.1.2",
+    "ether-pudding": "^3.2.0",
+    "path": "^0.12.7",
+    "require-nocache": "^1.0.0",
+    "solc": "^0.4.20",
+    "truffle-artifactor": "^3.0.5",
+    "truffle-contract": "^3.0.5",
+    "web3": "github:ethereum/web3.js"
+  }
+}
